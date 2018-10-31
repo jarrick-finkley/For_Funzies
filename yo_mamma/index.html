@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Shadows+Into+Light" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Niramit" rel="stylesheet">
+    
+    <title>Yo Momma</title>
+    <style>
+        * {
+            background: rgb(82, 82, 82);
+            color: white;
+            text-align: center;
+        }
+        img {
+            height: 180px;
+            width: 200px;
+            border-radius: 10px;
+            border: solid; 
+            border-width: 2px;
+            border-color: white;
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: 'Shadows Into Light', cursive;
+            margin-bottom: 0px;
+        }
+
+        p {
+            font-family: 'Niramit', sans-serif;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .container {
+            border: solid; 
+            border-width: 2px;
+            border-color: red;
+            border-radius: 10px;
+            box-shadow: 0px 0px 50px 5px red;
+            padding: 5px 5px 20px 5px;
+        }
+
+        .container1 {
+            border: solid; 
+            border-width: 2px;
+            border-color: rgb(0, 180, 39);
+            border-radius: 10px;
+            box-shadow: 0px 0px 50px 5px rgb(0, 180, 39);
+            padding: 5px 5px 20px 5px;
+        }
+
+        .submit {
+            background: rgb(82, 82, 82);
+            color: white;
+            border-radius: 5px;
+            border-width: 2px;
+        }
+
+        form {
+            font-family: 'Niramit', sans-serif;
+            font-size: 18px;
+        }
+
+        input {
+            border: solid;
+            border-width: 2px;
+            border-color: white;
+            border-radius: 5px;
+            margin: 0px 0px 5px 0px;
+        }
+
+        
+        
+        #output{
+            color: rgb(0, 224, 49);
+            font-size: 18px;
+            font-family: 'Niramit', sans-serif;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container" id='container'>
+        <div class="row">
+            <div class="sm-col-12">
+                <h1>Yo Momma Jokes</h1>
+                <img src="https://media.giphy.com/media/l1J3r8woEv9ylrPGg/giphy.gif" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="sm-col-12">
+                <form action="#" name='topic' id='topic'>
+                    <p>Pick an adjective to describe 'yo momma' and we'll provide one of a thousand jokes from that category. (options: fat, ugly, suprise me)</p>
+                    <label for="adj">Yo momma so: </label>
+                    <input type="text" id='adj'/>
+                    <input type="submit" class='submit' value='Submit'>
+                </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="sm-col-12">
+                <span id="output"></span>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src='apps.js'></script>
+</body>
+</html>
